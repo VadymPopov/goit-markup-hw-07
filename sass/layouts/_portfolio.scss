@@ -1,0 +1,14 @@
+.portfolio {
+    background-color: var(--main-light-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    list-style: none;
+
+    &__item:not(:last-child) {
+        margin-right: 8px;
+    }
+}
